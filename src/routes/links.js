@@ -10,4 +10,8 @@ router.get('/add', (req, res) =>{
     res.render('links/add') //esto manda a la pagina inicial.
 })
 
+router.post('/add', (req, res) =>{
+    res.send('received') //esto manda a la pagina inicial.
+})
+
 module.exports = router;
